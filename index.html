@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIVEK - That Creative Guy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <div class="logo">BIVEK</div>
+        <nav>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">SERVICES</a>
+                    <div class="dropdown-content">
+                        <a href="#">Web Design</a>
+                        <a href="#">Branding</a>
+                        <a href="#">Development</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">PROJECTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">Featured</a>
+                        <a href="#">Recent</a>
+                        <a href="#">Archive</a>
+                    </div>
+                </li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.linkedin.com/in/bivek-shakya/"><button class="contact-btn">CONTACT ME</button></a>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Look<br>beyond<br>limits</h1>
+                <div class="cta-container">
+                    <!-- <button class="cta-btn">Get in touch</button> -->
+                    <!-- <div class="email-icon">
+                        <a href="mailto:work@bivekshakya.com.np">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="M22 7l-10 7L2 7"></path>
+                        </svg>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="/bivek.png" alt="Creative visual">
+                    <div class="overlay-elements">
+                        <!-- <div class="colored-shape"></div> -->
+                        <div class="typography-element">
+                            <span>V</span>
+                            <span>i</span>
+                            <span>r</span>
+                            <span>t</span>
+                            <span>u</span>
+                            <span>a</span>
+                            <span>l</span>
+                            <span>l</span>
+                            <span>l</span>
+                            <span>l</span>
+                            <span>l</span>
+                            <span>l</span>
+                            <span>l</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonial-card">
+                <div class="quote">"</div>
+                <p>He Just did a great job attributing 40% revenue for the company</p>
+                <div class="client">Nomshado(Sanwellness)</div>
+            </div>
+            <!-- <div class="testimonial-card featured">
+                <h3>The most experienced, specialised team across the industry.</h3>
+                <a href="#" class="link-btn">Work with us</a>
+                <div class="team">
+                    <h4>MEET OUR DEVELOPERS</h4>
+                    <div class="team-avatars">
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="big-text">3D</div>
+                <div class="decorative-circles"></div>
+                <div class="decorative-element star">✱</div>
+            </div> -->
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <a href="./CarGame/cargame.html"><div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="/cargm.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Car Game</h3>
+                        <p>Interactive game built with HTML, CSS, and JavaScript</p>
+                        <span class="tag">Game Development</span>
+                    </div>
+                </div>
+            </a>
+                <a href="Flappy/flappy.html"><div class="project-card" data-category="branding">
+                    <div class="project-image">
+                        <img src="/flappygm.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Flappy Bird</h3>
+                        <p>A simple Flappy Bird game</p>
+                        <span class="tag">Game Development</span>
+                    </div>
+                </div>
+            </a>
+                <a href="./boxCollision/boxcollision.html"><div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="/coll.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Box Collision Simulation</h3>
+                        <p>A simple box collision simulation</p>
+                        <span class="tag">Simulation</span>
+                    </div>
+                </div>
+            </a>
+            <a href="./indexs.html">
+                <div class="project-card" data-category="development">
+                    <div class="project-image">
+                        <img src="/webdesign.png" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>PSD slicing- Web Design</h3>
+                        <p>An exact Web Design from concept to development</p>
+                        <span class="tag">Web Design- UI</span>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!-- <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+            </div> -->
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to create something amazing?</h2>
+            <a href="https://www.linkedin.com/in/bivek-shakya/"><button class="cta-btn large">Start a project</button></a>
+            <!-- <div class="decorative-elements">
+                <div class="decorative-element star">✱</div>
+                <div class="decorative-element circle">◯</div>
+                <div class="decorative-element cross">✕</div>
+            </div> -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">BIVEK</div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">GTM Strategy</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div> -->
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:work@bivekshakya.com.np">Contact</a></li>
+                        <!-- <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li> -->
+                        <li><a href="https://www.linkedin.com/in/bivek-shakya/">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 BLITZ. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

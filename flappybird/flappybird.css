@@ -1,0 +1,29 @@
+
+.bird {
+    background-image: url('flappy.png');
+    position: absolute;
+    /* height: 100px;
+    width: auto; */
+    background-repeat: no-repeat;
+    transition: transform 1s ease;
+
+}
+
+.wrapper {
+    height: 1000px;
+    width: 10000000px;
+    background-image: url("flb.jpg");
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+.app {
+    position: relative;
+    height: 1000px;
+    width: 500px;
+    overflow: hidden;
+}
+.pole{
+    background-image: url('pole.png');
+    position:absolute;
+    background-repeat: repeat;
+}

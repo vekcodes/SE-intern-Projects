@@ -1,0 +1,36 @@
+@font-face {
+    font-family: stem;
+    src: url(../assets/Stem-Bold.otf);
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: arial;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+/* Float padding fix */
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1; /* IE6&7 */ 
+}

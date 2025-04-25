@@ -1,0 +1,277 @@
+.logo-container h1{
+    font-family: "stem";
+    color: #1f373d;
+}
+.footer-wrapper{
+    background-color: #1f373d;
+}
+.appartment-cards-wrap{
+    background-color:#f6f5f4;
+}
+.nav-cta ul button{
+   background-color: #ffcc01;
+   border-radius: 6px;
+   border: none;
+}
+.nav-links ul li{
+    font-family: sans-serif;
+    color: #1f373d;
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
+    display: inline-block;
+    padding: 16px;
+}
+.nav-links ul li:hover{
+    background-color: #dfdfdf;
+}
+.nav-cta ul li{
+    font-family: sans-serif;
+    color: #1f373d;
+    
+}
+.nav-cta ul button{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #1f373d;
+}
+.color-part{
+    background-color: #96bece;
+}
+.hero-text h1{
+    color: #1f373d;
+    font-size: 55px;
+    font-family: 'stem';
+}
+
+.hero-search{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+.search-btn{
+    color: #1f373d;
+    background-color: #ffcc01;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: 'stem';
+}
+.search-input{
+    border: none;
+}
+.search-input::placeholder{
+    color: #96a3b5;
+}
+.scroll-text{
+    color: #96a3b5;
+}
+.details-wrapper{
+    background-color: #ffcc01;
+}
+.num-detail span{
+ color: #1f373d;
+ font-family: 'stem';
+
+}
+.loc-detail span{
+ color:#1f373d;
+ font-family: 'stem';
+}
+
+.stats-txt-left h1{
+    color: #1f373d;
+    font-family: 'stem';
+    font-size: 28px;
+}
+.stats-txt-left p{
+    color: #1f373d;
+    font-family: sans-serif;
+}
+.stats{
+    background-color: #f6f5f4;
+}
+.stats h1{
+    font-size: 28px;
+    font-family: 'stem';
+    color: #ffcc01;
+}
+.stats p{
+    color: #1f373d;
+    font-size: 13px;
+    font-family: 'stem';
+}
+.appartment-cards{
+    background-color: #f6f5f4;
+}
+.app-wrapper h1{
+    color: #1f373d;
+    font-family: 'stem';
+    font-size: 28px;
+}
+.card-details h4{
+    font-family: 'stem';
+    color: #1f373d;
+}
+.app-card{
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+.app-card:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.price-detail-wrapper p{
+    color: #ffcc01;
+    font-family: 'stem';
+    font-size: 18px;
+}
+.det-container span{
+    font-size: 9px;
+    color: #919eb1;
+}
+.view-btn{
+    border-radius: 6px;
+    color: #1f373d;
+    border: none;
+    background-color: white;
+}
+.htw-card{
+    background-color: #ffcc01;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);  
+}
+.htw-heading h1{
+    color: #1f373d;
+    font-family: 'stem';
+    font-size: 28px;
+}
+.htw-card h1{
+    color: white;
+    font-family: 'stem';
+    font-size: 130px;
+}
+.card-pa{
+    color: white;
+}
+.card-loc{
+    font-family: 'stem';
+    color: white;
+    font-size: large;
+}
+.htw-card button{
+    color: white;
+    font-family: 'stem';
+    font-size: medium;
+    border: none;
+    background: none;
+}
+.btn-underline{
+    background-color: white;
+}
+.services-heading h1{
+ font-family: 'stem';
+ color: #1f373d;
+ font-size: 28px;   
+}
+.list-detail h1{
+    font-family: 'stem';
+    color: #1f373d;
+    font-size: 25px;
+}
+.list-detail p{
+ color: #1f373d;
+}
+.agent{
+    background-color: #f6f5f4;
+}
+.agent-heading h1{
+    color: #1f373d;
+    font-size: 28px;
+    font-family: 'stem';
+}
+.agent-wrap{
+ background-color: #f6f5f4;
+}
+.agent-heading p{
+    color: #1f373d;
+}
+.f-c-location{
+    background-color: #ffcc01;
+}
+.f-c-location span{
+    color: #1f373d;
+    font: 'stem';
+    font-weight: bold;
+}
+.right-f-c-texts h1{
+color: #1f373d;
+font-family: 'stem';
+}
+.right-f-c-texts p{
+    color: #1f373d;
+}
+.left-s-c h1{
+    color: #1f373d;
+    font-family: 'stem';
+    
+}
+.left-s-c p{
+    color: #1f373d;
+}
+.s-c-location{
+    background-color: #ffcc01;
+}
+
+.s-c-location span{
+    color: #1f373d;
+    font: 'stem';
+    font-weight: bold;
+}
+.right-t-c-texts h1{
+    color: #1f373d;
+    font-family: 'stem';
+
+}
+.right-t-c-texts p{
+    color: #1f373d;
+}
+.right-t-c-texts button{
+    margin-top: 40px;
+    height: 80px;
+    width: 240px;
+    border: none;
+    color: white;
+    background-color: #1f373d;
+    font-size: large;
+    font-family: 'stem';
+}
+footer{
+    background-color: #1f373d;
+
+}
+
+.upper-footer h1{
+font-family: 'stem';
+color: white;
+font-size: 30px;
+}
+.email-newsletter::after{
+    border: none;
+}
+.email-newsletter::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+.email{
+    background-color: white ;
+}
+.line{
+    background-color: #f6f5f4;
+}
+.ft-left{
+    color: white;
+}
+.ft-right{
+    color: white;
+}
